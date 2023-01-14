@@ -1,0 +1,19 @@
+{
+  "name": "flat-iron-bank",
+  "version": "1.0.0",
+  "description": "\"flatironbank\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShuaibShaban/Flat-Iron-Bank.git"
+  },
+  "author": "Shuaib",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShuaibShaban/Flat-Iron-Bank/issues"
+  },
+  "homepage": "https://github.com/ShuaibShaban/Flat-Iron-Bank#readme"
+}
