@@ -10,12 +10,11 @@
 }
 .header{
   display: flex;
-  justify-content: center; 
   text-align: left;
 }
 .tablecontent{
   border-collapse:collapse;
-  margin: 25px 0;
+  margin: 2px 0;
   font-size: 0.9em;
   max-width: 400px; 
 }
@@ -38,14 +37,13 @@ body{
   padding: 5px;
 }
 .App-header{
-  background-color: #222;
   padding: 20px;
   color: white;
 }
 #search-form{
   display:flex ;
   width: 100px;
-  border: 1px solid black;
+  border: 1px solid orange;
   margin: 5px 0;
   height: 40px;
   border-radius: 10px;
@@ -60,6 +58,7 @@ body{
   border: none;
   background: transparent;
   width: 80%;
+  color: orange;
 }
 
 #search-form button{
@@ -76,7 +75,7 @@ body{
 #new-item-form{
   height: 70px;
   border-radius: 6px;
-  border: 1px solid black;
+  border: 1px solid orange;
   margin: 6px 0;
   padding: 5px;
 }
@@ -102,11 +101,12 @@ body{
 }
 table{
   width: 100%;
-  border-radius: 4px;
+  border-radius: 2px;
   border-collapse: collapse;
 }
 tr,td,th,table{
   border: 1px solid;
+  color: white;
 }
 th{
   background: #FFA500;
@@ -116,4 +116,8 @@ th{
 td{
   padding: 30px;
 }
+.App{
+  text-align: center;
+}
+
 

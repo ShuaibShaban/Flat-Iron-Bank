@@ -32,26 +32,26 @@ function NewTransactionForm({ onSubmission }) {
   // {handleChange} & {handleSubmit} passed as a prop references to their functions for execution
   return (
     <form onChange={handleChange} onSubmit={handleSubmit} id="new-item form">
-      <div>
+      <div className="form-inputs">
         <label htmlForm="date">Date</label>
         <input value={formData.date} name="date" id="date" />
         <input
           value={formData.description}
           name="description"
-          className="text input"
+          className="text-input"
           type={"text"}
           placeholder="Description"
         />
         <input
           value={formData.category}
           name="category"
-          className="text input"
+          className="text-input"
           type="text"
           placeholder="Category...."
         />
         <input value={formData.amount} name="amount" type="number" />
       </div>
-      <button>Add Transaction</button>
+      <button>Click To Add New Transaction</button>
     </form>
   );
 }
